@@ -767,7 +767,7 @@
         position: relative; }
         
         .header-bar {
-        margin: 25px 0 75px 0;
+        margin: 30px 0 50px 0;
         width: 70px;
         height: 4px;
         background: #444649; }
@@ -883,7 +883,8 @@
             position: absolute;
             top: 0;
             left: 0;
-            background: rgba(0, 0, 0, 0.5);
+            background: url("back_image.jpg");
+            background: rgba(0, 0, 0, 0.055);
             opacity: 0;
             transition: opacity .3s; }
         .modal-wrap .modal {
@@ -962,7 +963,7 @@
             opacity: 1; }
         
         section {
-        padding: 70px 0 70px 0;
+        padding: 30px 0 30px 0;
         color: #616161;
         line-height: 11pt;
         position: relative; }
@@ -1192,7 +1193,7 @@
         section .flex-50-gt-sm {
             display: block; }
         section:nth-of-type(4) {
-            padding: 130px 0 100px 0;
+            /*padding: 130px 0 100px 0;*/
             text-align: left; }
             section:nth-of-type(4) .flex.row-gt-sm, section:nth-of-type(4) .flex.wrap {
             align-items: flex-start; }
@@ -1202,7 +1203,7 @@
             left: 0;
             height: 100%;
             width: 100%; }
-            section:nth-of-type(4) .blog-wrap {
+            /*section:nth-of-type(4) .blog-wrap {
             margin: 0 0 50px 0;
             padding: 0 2px;
             width: 100%;
@@ -1220,7 +1221,7 @@
             section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
                 opacity: 0.4; }
             section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-                color: #04C2C9; }
+                color: #04C2C9; }*/
             section:nth-of-type(4) .label {
             line-height: 14pt;
             font-size: 12pt;
@@ -1430,7 +1431,7 @@
         
         section {
             line-height: 18pt;
-            padding: 100px 0 130px 0; }
+            padding: 30px 0 50px 0; }
             section .container {
             padding: 0 10px; }
             section:nth-of-type(1) .text {
@@ -1771,7 +1772,9 @@
           border-bottom: 1px solid white;
           
         }
-        
+        .email{
+          color:#009ADA;
+        }
 
         ul{
           list-style-type: none;
@@ -2049,7 +2052,7 @@
           </section>
         
         <!-- BLOG -->
-          <section id="blog">
+         <!-- <section id="blog">
             <div class="container flex">
         
               <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">BLOG</div>
@@ -2062,7 +2065,7 @@
                       <div class="fade-wrap">
                         <div class="thumb" id="thumb-1"></div>
                         <div class="label bold">Breaking Your Coder's Block</div>
-                        <!-- <div class="date">APRIL 29, 2016</div> -->
+                         <div class="date">APRIL 29, 2016</div> 
                         <div class="bar"></div>
                         <div class="text">
                           At one time or another, as a developer, we've all found ourselves hopelessly stuck on a coding issue...
@@ -2075,7 +2078,7 @@
                       <div class="fade-wrap">
                         <div class="thumb" id="thumb-2"></div>
                         <div class="label bold">!Awake: This is Your Brain on Caffeine</div>
-                        <!-- <div class="date">MARCH 19, 2015</div> -->
+                         <div class="date">MARCH 19, 2015</div> 
                         <div class="bar"></div>
                         <div class="text">
                           If there's one thing I can truly claim to be an expert on, it's staying awake. For five years I struggled to stay employed...
@@ -2090,7 +2093,7 @@
                       <div class="fade-wrap">
                         <div class="thumb" id="thumb-3"></div>
                         <div class="label bold">Getting a Handle on Handlebars</div>
-                        <!-- <div class="date">MARCH 04, 2015</div> -->
+                         <div class="date">MARCH 04, 2015</div> 
                         <div class="bar"></div>
                         <div class="text">
                           Here at EyeCue Lab we render most of our data-laden HTML pages in Handlebar templates...
@@ -2103,7 +2106,7 @@
                       <div class="fade-wrap">
                         <div class="thumb" id="thumb-4"></div>
                         <div class="label bold">5 Extensions for Your Chrome Toolbelt</div>
-                        <!-- <div class="date">FEBRUARY 23, 2015</div> -->
+                         <div class="date">FEBRUARY 23, 2015</div> 
                         <div class="bar"></div>
                         <div class="text">
                           If you're not using Google Chrome as a front-end web developer, you're missing out. Not only is Chrome the...
@@ -2114,23 +2117,22 @@
                 </div>
               </div>
             </div>
-          </section>
+          </section> -->
         
           <!-- CONTACT -->
           <section id="contact">
-            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-              <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-            </svg>
+            
             <div class="container flex">
               <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">CONTACT</div>
               <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".25s" style="animation-delay: 0.25s;"></div>
               <div class="highlight waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;">Have a question or want to work together?</div>
-              <div> siribasireddi@gmail.com</div>
-     
+              <div class = "email"> siribasireddi@gmail.com</div>
             </div>
+            
           </section>
-        
+          
           <footer>
+            
             <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
         
             <div class="icon-wrap flex row">
@@ -2158,6 +2160,7 @@
             <div class="info-box">
               <div class="footnote">Sirisha Basireddy <span class="highlight">©2019</span></div>
             </div>
+            
           </footer>
         
         </div>
@@ -2200,5 +2203,5 @@
         <script src="scripts/canvas.js"></script>
         
     </body>
-    <span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
+   <span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
     </html>
